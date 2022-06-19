@@ -22,23 +22,14 @@
                                     <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="GUV-bJ-Evm">
                                         <rect key="frame" x="0.0" y="0.0" width="150" height="150"/>
                                         <color key="backgroundColor" systemColor="systemRedColor"/>
-                                        <constraints>
-                                            <constraint firstAttribute="height" constant="150" id="Zc8-wD-Tr7"/>
-                                        </constraints>
                                     </view>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="8IS-3I-LlZ">
                                         <rect key="frame" x="0.0" y="175" width="150" height="150"/>
                                         <color key="backgroundColor" systemColor="systemYellowColor"/>
-                                        <constraints>
-                                            <constraint firstAttribute="height" constant="150" id="de1-be-eYn"/>
-                                        </constraints>
                                     </view>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="SUN-uX-bLn">
                                         <rect key="frame" x="0.0" y="350" width="150" height="150"/>
                                         <color key="backgroundColor" systemColor="systemGreenColor"/>
-                                        <constraints>
-                                            <constraint firstAttribute="height" constant="150" id="yxm-gu-ndm"/>
-                                        </constraints>
                                     </view>
                                 </subviews>
                                 <constraints>
@@ -57,7 +48,7 @@
                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                 <state key="normal" title="Start"/>
                                 <connections>
-                                    <action selector="startButtonTapped" destination="BYZ-38-t0r" eventType="touchUpInside" id="Huf-Wm-HBZ"/>
+                                    <action selector="startButtonTapped" destination="BYZ-38-t0r" eventType="touchUpInside" id="Wft-Ew-cGn"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -75,7 +66,7 @@
                     <connections>
                         <outlet property="greenColor" destination="SUN-uX-bLn" id="6bN-gH-vo4"/>
                         <outlet property="redColor" destination="GUV-bJ-Evm" id="KH1-v3-MSA"/>
-                        <outlet property="startButton" destination="d3b-B1-mPz" id="Xuk-BA-tK6"/>
+                        <outlet property="startButton" destination="d3b-B1-mPz" id="jwJ-zx-OoD"/>
                         <outlet property="yellowColor" destination="8IS-3I-LlZ" id="2yn-Wy-gys"/>
                     </connections>
                 </viewController>

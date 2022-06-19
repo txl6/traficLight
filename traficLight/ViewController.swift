@@ -13,7 +13,7 @@ class ViewController: UIViewController {
     @IBOutlet var yellowColor: UIView!
     @IBOutlet var greenColor: UIView!
     @IBOutlet var startButton: UIButton!
-    
+
     
     override func viewDidLoad() {
      
@@ -29,8 +29,10 @@ class ViewController: UIViewController {
         startButton.layer.cornerRadius = 20
     }
     
+     
+          
     @IBAction func startButtonTapped() {
-        startButton.setTitle( "Next", for: .normal)
+    startButton.setTitle( "Next", for: .normal)
         
         if redColor.alpha == yellowColor.alpha {
             redColor.alpha = 1
