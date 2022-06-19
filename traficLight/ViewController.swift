@@ -30,9 +30,22 @@ class ViewController: UIViewController {
     }
     
     @IBAction func startButtonTapped() {
+        startButton.setTitle( "Next", for: .normal)
+        
+        if redColor.alpha == yellowColor.alpha {
+            redColor.alpha = 1
+            greenColor.alpha = 0.3
+        } else if redColor.alpha != greenColor.alpha {
+                        redColor.alpha = 0.3
+                        yellowColor.alpha = 1
+        } else if yellowColor.alpha != greenColor.alpha {
+            yellowColor.alpha = 0.3
+            greenColor.alpha = 1
+        }
+            
     }
 }
-    
+
 
 
 
